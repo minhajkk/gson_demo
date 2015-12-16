@@ -1,0 +1,7 @@
+model {
+    Foo foo
+}
+json {
+    field1 foo.field1
+    field2 foo.field2
+}
